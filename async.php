@@ -10,8 +10,11 @@ $articles = $stmt->fetchAll();
 require_once("header.php");
 ?>
 
-    <h1>Liste des utilisateurs</h1>
-        <ul id="utilisateurs"></ul>
+    <h2>Utilisateurs chargés (Asynchrone) :</h2>
+    <ul id="utilisateurs"></ul>
+
+    <h2>Logs d'exécution :</h2>
+    <div id="output"></div>
 
     <script src="async.js"></script>
 
